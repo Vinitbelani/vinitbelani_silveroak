@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinit Belani</title>
+    <script src="https://kit.fontawesome.com/343562fae4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <b>Vinit Belani</b>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="/">Home</a></li>
+        </header>
+        <hr>
+
+        
+        <div class="img-container">
+          <img src="" id="image">
+          <script type="text/javascript">
+              let image=document.getElementById('image');
+              let images=["1.jpg","2.jpg","3.jpg"]
+              setInterval(function(){
+                  let random=Math.floor(Math.random() *3);
+                  image.src=images[random];
+              }, 800);
+          </script>
+          <button>Contact Me</button>
+      </div>
+
+        <h1 class="heading"><span>About</span> Me</h1>
+    <div id="about">
+       
+        <div>
+          <img src="4.jpg" style="border-radius:5px;">
+        </div>
+        <div>
+          Who I am  -  VINIT SHARADBHAI BELANI
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet cumque sequi, neque facere nam atque tempore praesentium 
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ab sapiente, temporibus sequi pariatur at officiis eaque laboriosam nulla cum nostrum quisquam nemo in nam itaque corrupti deleniti esse earum?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laudantium.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ab sapiente, temporibus sequi pariatur at officiis eaque laboriosam nulla cum nostrum quisquam nemo in nam itaque corrupti deleniti esse earum?</p>
+      <button>Download Resume</button>  
+      </div>
+    </div>
+
+    <div id="services">
+            <h1 class="heading"><span>Services</span></h1>
+            <div class="box-con">
+              <div class="box">
+              <h3>Developing</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ab sapiente, temporibus sequi pariatur at officiis eaque laboriosam nulla cum nostrum quisquam nemo in nam itaque corrupti deleniti esse earum?</p>
+                <input type="Learn-More" value="Learn More">
+            </div>
+              <div class="box">
+                <h3>Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo harum placeat quaerat architecto earum, iusto nihil hic similique iste eos qui quae nisi minima est natus nulla id ipsam! </p>
+                
+                  <input type="Learn-More" value="Learn More">
+                
+              </div>
+              <div class="box">
+                  <h3>coding</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. doloribus obcaecati velit illum beatae excepturi! Ex accusantium, sed, perspiciatis odio vero cupiditate suscipit ab nemo hic quis laboriosam nihil repellat.</p>
+                    <input type="Learn-More" value="Learn More">
+                 
+                </div>
+            </div>
+          
+    </div>
+    <h1 class="heading"><span>Contact</span> Me</h1>
+   <div id="contact" style="text-align:center">
+    <div>
+    <b>Get In Touch</b><br><br>
+    I am available to work on your projects and bring your ideas to life. I am just a click away.<br><br>
+    <i class="fa-solid fa-location-dot"></i>Gujarat,Ahmedabad<br><br>
+    <i class="fa-solid fa-envelope-open"></i>200203042102@silveroakuni.ac.in<br><br>
+    </div>
+    <div>
+    <input type="text" placeholder="name"><br><br>
+    <input type="number" placeholder="number"><br><br>
+    <input type="email" placeholder="email"><br><br>
+    <input type="text" placeholder="subject"><br><br>
+    <textarea name="text" placeholder="message"></textarea><br><br>
+    <button>Submit</button><br><br>
+    </div>
+</div>
+
+
+   <div class="footer">
+    © Copyright 2021. All right reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+   </div>
+</body>
+</html>
